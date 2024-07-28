@@ -1,2 +1,3 @@
 # Pomodoro
-# pomodoro-react
+
+Projeto utilizando o React feito pela plataforma da rockeseat
