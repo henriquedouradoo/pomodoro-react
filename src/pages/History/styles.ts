@@ -1,14 +1,12 @@
 import styled from 'styled-components'
 
 export const HistoryContainer = styled.main`
-  height: 100vh;
+  flex: 1;
   padding: 3.5rem;
   display: flex;
   flex-direction: column;
-
   h1 {
     font-size: 1.5rem;
-    margin-top: -4.2%;
     color: ${(props) => props.theme['gray-100']};
   }
 `
@@ -43,9 +41,8 @@ export const HistoryList = styled.div`
       padding: 1rem;
       font-size: 0.875rem;
       line-height: 1.6;
-
       &:first-child {
-        width: 45%;
+        width: 50%;
         padding-left: 1.5rem;
       }
       &:last-child {
