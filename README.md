@@ -1,3 +1,3 @@
 # Pomodoro
 
-Projeto utilizando o React feito pela plataforma da rockeseat
+Projeto utilizando o framework React com tsx e ts
