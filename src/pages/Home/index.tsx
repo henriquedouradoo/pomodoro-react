@@ -30,6 +30,7 @@ const newCycleFormValidationSchema = zod.object({
 // task: string
 // minutesAmount: number
 // }
+// Prop Drilling no React
 
 type NewCycleFormDate = zod.infer<typeof newCycleFormValidationSchema>
 
@@ -143,8 +144,8 @@ export function Home() {
     <HomeContainer>
       <form onSubmit={handleSubmit(handleCreateNewCycle)} action="">
       <NewCycleForm />
-      <Countdown />
-      
+      <Countdown /> 
+
         {activeCycle ? (
           <StopCountdownButton onClick={handleInterruptCycle} type="button">
             <HandPalm size={24} />
